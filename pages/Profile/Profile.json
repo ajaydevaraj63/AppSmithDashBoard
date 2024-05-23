@@ -122,6 +122,17 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Profile_JSObject1.getprofile",
+              "name": "JSObject1.getprofile",
+              "collectionId": "Profile_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  storeValue('profile', getUserProfile.data[0]);\n  console.log(getUserProfile.data[0].graphdata);\n  storeValue('profile', getUserProfile?.data[0].graphdata);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Profile_JSObject1.totalHoursCalc",
               "name": "JSObject1.totalHoursCalc",
               "collectionId": "Profile_JSObject1",
