@@ -1,0 +1,7 @@
+UPDATE public."account" SET
+    "external_id" = '',
+    "customer_id" = 1,
+    "company.id" = 1,
+    "account_manager" = 1,
+    "updated" = TIMESTAMP WITH TIME ZONE '2019-07-01 06:30:00 CET'
+  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!
