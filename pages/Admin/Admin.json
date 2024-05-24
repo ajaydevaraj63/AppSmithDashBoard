@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 950,
+          "bottomRow": 2210,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -128,6 +128,21 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Admin_UpdateTable",
+              "name": "UpdateTable",
+              "confirmBeforeExecute": true,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Phone_no.text",
+                "CompanyName.text",
+                "Email.text",
+                "tbl_userInfo.selectedRow.email"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
