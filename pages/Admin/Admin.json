@@ -142,14 +142,6 @@
                 "async () => {\n  await agent_stats.run();\n  await agent_statsAgent.run();\n  let chartData;\n  if (selectAgent.selectedOptionValue.length == 0) chartData = agent_stats.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  }); else chartData = agent_statsAgent.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  });\n  storeValue('equipmentStats', chartData);\n  console.log(appsmith.store.equipmentStats);\n}"
               ],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_select_agent",
-              "name": "select_agent",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
             }
           ]
         ],
