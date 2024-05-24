@@ -119,7 +119,7 @@
       "tbl_userInfo.selectedRow.username"
     ],
     "userSetOnLoad": true,
-    "confirmBeforeExecute": true,
+    "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
     "createdAt": "2024-05-24T04:24:03Z"

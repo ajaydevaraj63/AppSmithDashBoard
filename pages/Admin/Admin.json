@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 950,
+          "bottomRow": 2210,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -135,7 +135,7 @@
             {
               "id": "Admin_UpdateTable",
               "name": "UpdateTable",
-              "confirmBeforeExecute": true,
+              "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Phone_no.text",
@@ -156,6 +156,17 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async () => {\n  await agent_stats.run();\n  await agent_statsAgent.run();\n  let chartData;\n  if (selectAgent.selectedOptionValue.length == 0) chartData = agent_stats.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  }); else chartData = agent_statsAgent.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  });\n  storeValue('equipmentStats', chartData);\n  console.log(appsmith.store.equipmentStats);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_JSObject1.getData",
+              "name": "JSObject1.getData",
+              "collectionId": "Admin_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  storeValue('tabledata', Query1.data);\n  console.log(appsmith.store.tabledata);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

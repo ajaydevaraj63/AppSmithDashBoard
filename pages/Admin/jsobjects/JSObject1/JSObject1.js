@@ -26,6 +26,11 @@ export default {
 			// return(select_work_orders.data.filter(user => user.agent==(selectAgent.selectedOptionLabel)))
 		// }
 	},
+	getData: ()=>{
+		storeValue('tabledata',Query1.data)
+		console.log(appsmith.store.tabledata)
+	}
+,
 
 	totalHoursCalc: async() => {
 		let sum = 0
