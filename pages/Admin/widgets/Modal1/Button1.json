@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "widgetName": "Button1",
-    "onClick": "{{update_work_orders1.run(() => select_work_orders.run(), () => {});\nQuery1.run().then(() => {\n  closeModal(Modal1.name);\n});}}",
+    "onClick": "{{update_work_orders1.run(() => select_work_orders.run(), () => {});\nQuery1.run().then(() => {\n  closeModal(Modal1.name);\n});\nQuery1.run()}}",
     "buttonColor": "#2356A1",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
