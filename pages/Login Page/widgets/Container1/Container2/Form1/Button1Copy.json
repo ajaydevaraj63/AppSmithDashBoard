@@ -24,10 +24,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "buttonColor"}],
     "text": "Login",
     "isDisabled": false,
     "key": "9moa23ctar",
@@ -53,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 33,
+    "originalTopRow": 38,
     "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 37,
+    "originalBottomRow": 42,
     "buttonVariant": "PRIMARY",
     "iconAlign": "right",
     "placement": "CENTER"
