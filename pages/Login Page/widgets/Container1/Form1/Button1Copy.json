@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 38,
+    "originalTopRow": 31,
     "disabledWhenInvalid": true,
     "borderRadius": "0.375rem",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 42,
+    "originalBottomRow": 35,
     "buttonVariant": "PRIMARY",
     "iconAlign": "right",
     "placement": "CENTER"
