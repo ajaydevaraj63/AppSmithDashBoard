@@ -79,7 +79,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"update\": \"companyschemas\",\n  \"updates\": [{\n    \"q\": {email:{{tbl_userInfo.selectedRow.email}}},\n    \"u\": {email:{{Email.text}},password:{{Phone_no.text}},companyname:{{CompanyName.text}}},\n    \"multi\": false,\n  }]\n}\n",
+            "data": "{\n  \"update\": \"companyschemas\",\n  \"updates\": [{\n    \"q\": {email:{{tbl_userInfo.selectedRow.email}}},\n    \"u\": {email:{{Email.text}},password:{{Phone_no.text}},companyname:{{CompanyName.text}},username:{{tbl_userInfo.selectedRow.username}}},\n    \"multi\": false,\n  }]\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -94,7 +94,7 @@
             "data": "{email:{{tbl_userInfo.selectedRow.email}}}"
           },
           "update": {
-            "data": "{email:{{Email.text}},password:{{Phone_no.text}},companyname:{{CompanyName.text}}}"
+            "data": "{email:{{Email.text}},password:{{Phone_no.text}},companyname:{{CompanyName.text}},username:{{tbl_userInfo.selectedRow.username}}}"
           }
         }
       }
@@ -115,7 +115,8 @@
       "CompanyName.text",
       "Email.text",
       "Phone_no.text",
-      "tbl_userInfo.selectedRow.email"
+      "tbl_userInfo.selectedRow.email",
+      "tbl_userInfo.selectedRow.username"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": true,

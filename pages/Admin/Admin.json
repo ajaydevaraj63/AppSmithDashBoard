@@ -141,7 +141,8 @@
                 "Phone_no.text",
                 "CompanyName.text",
                 "Email.text",
-                "tbl_userInfo.selectedRow.email"
+                "tbl_userInfo.selectedRow.email",
+                "tbl_userInfo.selectedRow.username"
               ],
               "timeoutInMillisecond": 10000
             }
