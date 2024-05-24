@@ -16,12 +16,11 @@
     "mobileRightColumn": 25.5,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "fontFamily": "Poppins",
     "dynamicTriggerPathList": [],
     "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
@@ -44,7 +43,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "#ffffff",
     "version": 1,
     "parentId": "sbyptynv5w",
     "tags": [
