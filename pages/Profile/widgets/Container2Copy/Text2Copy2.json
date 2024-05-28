@@ -58,11 +58,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 28,
     "responsiveBehavior": "fill",
-    "originalTopRow": 56,
+    "originalTopRow": 98,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 28,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 60,
+    "originalBottomRow": 111,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

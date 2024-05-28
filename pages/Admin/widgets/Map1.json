@@ -1,5 +1,5 @@
 {
-    "zoomLevel": 100,
+    "zoomLevel": 75,
     "needsErrorInfo": false,
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 85,

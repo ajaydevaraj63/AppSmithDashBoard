@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 37,
-    "widgetName": "Button1Copy",
+    "widgetName": "Button1",
     "onClick": "{{\n\n\nloginapi.run().then(() => {\n\n\tif(loginapi?.data[0]?.email==Input1.text){\n\t\tstoreValue(\"token\",Input1.text)\n\t\tnavigateTo('Admin', {}, 'SAME_WINDOW');\n\t}\n\telse{\n\n\t\tstoreValue(\"token\",\"\")\n\t}\n\n}).catch(() => {\n\tshowModal(Modal1.name);\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [
