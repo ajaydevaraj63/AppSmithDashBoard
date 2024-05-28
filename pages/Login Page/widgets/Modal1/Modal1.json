@@ -18,6 +18,7 @@
     "hideCard": false,
     "shouldScrollContents": true,
     "mobileRightColumn": 0,
+    "minHeight": 240,
     "animateLoading": true,
     "parentColumnSpace": 1,
     "leftColumn": 0,
@@ -35,7 +36,7 @@
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 0,
+        "minHeight": 240,
         "mobileRightColumn": 0,
         "parentColumnSpace": 1,
         "leftColumn": 0,
@@ -97,6 +98,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "width": 456,
+    "width": 300,
     "minDynamicHeight": 24
 }
