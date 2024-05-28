@@ -57,5 +57,5 @@
     "originalBottomRow": 35,
     "buttonVariant": "PRIMARY",
     "iconAlign": "right",
-    "placement": "CENTER"
+    "placement": "BETWEEN"
 }

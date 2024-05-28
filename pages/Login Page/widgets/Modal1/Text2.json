@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 8,
-    "bottomRow": 12,
+    "topRow": 2,
+    "bottomRow": 6,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 41,
@@ -18,7 +18,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 3,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,7 +29,7 @@
     "text": "invalid Email or Password",
     "key": "6i9uy0zzaz",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 55,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -60,6 +60,6 @@
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 14,
-    "fontSize": "1.25rem",
+    "fontSize": "1rem",
     "minDynamicHeight": 4
 }
