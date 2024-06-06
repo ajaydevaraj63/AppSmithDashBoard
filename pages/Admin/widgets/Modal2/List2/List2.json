@@ -122,7 +122,7 @@
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.469b7e8d3a04de93014af9a7bc9ebe56.svg",
     "widgetId": "0i4jhf2pxi",
     "minWidth": 450,
-    "onItemClick": "{{JSObject1.List2onItemClick(List2.selectedItem);\ncloseModal(Modal2.name);}}",
+    "onItemClick": "{{JSObject1.List2onItemClick(List2.selectedItem);\ncloseModal(Modal2.name);\nshowAlert('Poll submitted succesfully', 'success');}}",
     "parentId": "qitdme5zdc",
     "renderMode": "CANVAS",
     "mobileTopRow": 14,

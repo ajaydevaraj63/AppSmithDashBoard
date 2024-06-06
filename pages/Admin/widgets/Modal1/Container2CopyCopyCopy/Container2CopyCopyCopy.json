@@ -1,7 +1,7 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "widgetName": "Container2CopyCopyCopy",
-    "borderColor": "",
+    "borderColor": "#003b4a",
     "isCanvas": true,
     "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
@@ -16,10 +16,7 @@
     "parentColumnSpace": 18.0625,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "boxShadow"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas2CopyCopyCopyCopy",
@@ -51,7 +48,7 @@
     "key": "6bzu8mpizb",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#ffffff",
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "rldcpt8lbu",
     "containerStyle": "card",
