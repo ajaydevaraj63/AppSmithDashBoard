@@ -5,7 +5,7 @@
     "templateHeight": 160,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.25a47fc4c639c22e8da41e27e998b550.svg",
     "topRow": 5,
-    "pageSize": 2,
+    "pageSize": 4,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,
