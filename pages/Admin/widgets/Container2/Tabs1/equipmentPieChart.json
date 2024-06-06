@@ -7,7 +7,7 @@
     "displayName": "Chart",
     "iconSVG": "/static/media/icon.6adbe31e.svg",
     "topRow": 4,
-    "bottomRow": 65,
+    "bottomRow": 72,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,

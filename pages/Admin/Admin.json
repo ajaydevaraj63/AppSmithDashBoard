@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1140,
+          "bottomRow": 2210,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -128,6 +128,16 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_getpolls",
+              "name": "getpolls",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.token"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],

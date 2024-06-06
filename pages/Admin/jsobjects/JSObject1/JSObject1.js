@@ -18,6 +18,11 @@ export default {
 
 
 	},
+	
+		List2onItemClick: (value)=> {
+		console.log(value)
+  
+		},
 	search: () => {
 		// if(selectAgent.selectedOptionValue.length==0){
 			// return select_work_orders.data
