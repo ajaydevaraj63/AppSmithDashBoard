@@ -1,14 +1,10 @@
 {
-    "zoomLevel": 75,
+    "zoomLevel": 80,
     "needsErrorInfo": false,
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 85,
     "widgetName": "Map1",
-    "defaultMarkers": [{
-        "title": "Location1",
-        "lat": 25.122,
-        "long": 50.132
-    }],
+    "defaultMarkers": "[{\n\"lat\":{{appsmith.geolocation.currentPosition.coords.latitude || \"\"}}, \n\"long\":{{appsmith.geolocation.currentPosition.coords.longitude || \"\"}}\n}]",
     "displayName": "Map",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.90428b358e5d271b311873239e736e78.svg",
     "topRow": 5,
@@ -24,9 +20,10 @@
     "leftColumn": 13,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "defaultMarkers"}
     ],
-    "onCreateMarker": "{{appsmith.geolocation.watchPosition();}}",
+    "onCreateMarker": "{{appsmith.geolocation.watchPosition();\nnavigateTo(\"\", {}, 'SAME_WINDOW')}}",
     "enablePickLocation": true,
     "mapCenter": {
         "title": "293G+M65, Infopark Phase 2, Infopark Sez, Phase II, Kochi, Kakkanad, Kerala 682303, India",

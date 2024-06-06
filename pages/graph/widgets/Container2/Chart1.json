@@ -45,7 +45,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 61,
+    "bottomRow": 42,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 14,
@@ -101,7 +101,7 @@
     "showDataPointLabel": false,
     "key": "u3gea1b2eg",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "nv756suf1g",
     "minWidth": 450,
