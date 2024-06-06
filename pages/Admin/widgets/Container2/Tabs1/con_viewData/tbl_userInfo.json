@@ -67,7 +67,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1716881717762,
+    "columnUpdatedAt": 1717660321574,
     "originalBottomRow": 63,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -121,7 +121,7 @@
             "index": 0,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "phone number",
+            "label": "password",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "CENTER",
