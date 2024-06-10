@@ -4,7 +4,7 @@
     "mobileBottomRow": 4,
     "widgetName": "IconButton5",
     "onClick": "{{showModal(Modal3.name);}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#5e6c9e",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
     "searchTags": [
@@ -20,11 +20,8 @@
     "animateLoading": true,
     "parentColumnSpace": 3.11651611328125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 42,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "leftColumn": 47,
+    "dynamicBindingPathList": [],
     "isDisabled": false,
     "key": "zukbootdyb",
     "isDeprecated": false,
@@ -48,7 +45,7 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 59,
     "buttonVariant": "PRIMARY"
 }

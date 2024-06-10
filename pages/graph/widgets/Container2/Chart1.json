@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
     "topRow": 2,
@@ -12,8 +12,6 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
@@ -33,7 +31,7 @@
     "tags": ["Display"],
     "isLoading": false,
     "chartName": "Sales Report",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "xAxisName": "Product Line",
     "needsErrorInfo": true,
     "mobileBottomRow": 34,

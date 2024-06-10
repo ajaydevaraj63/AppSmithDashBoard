@@ -16,7 +16,7 @@
     "hideCard": false,
     "mobileRightColumn": 24,
     "animateLoading": true,
-    "overflow": "SCROLL",
+    "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [

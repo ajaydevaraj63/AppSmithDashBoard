@@ -7,10 +7,7 @@
     "type": "TABS_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [
         {
             "needsErrorInfo": false,
@@ -118,7 +115,7 @@
     ],
     "flexVerticalAlignment": "stretch",
     "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "accentColor": "#ffffff",
     "onCanvasUI": {
         "focusBGCSSVar": "--on-canvas-ui-widget-focus",
         "disableParentSelection": false,
@@ -146,7 +143,7 @@
     "dynamicTriggerPathList": [{"key": "onTabSelected"}],
     "borderWidth": "0",
     "key": "1urfjj044v",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#2356a1",
     "isDeprecated": false,
     "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",

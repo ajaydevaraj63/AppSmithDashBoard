@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "widgetName": "Button2Copy2Copy",
     "onClick": "{{navigateTo('graph', {}, 'SAME_WINDOW').then(() => {\n  showAlert('analysys page', 'success');\n});}}",
-    "buttonColor": "#ffffff",
+    "buttonColor": "#5e6c9e",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
     "searchTags": [
@@ -35,8 +35,10 @@
     "parentId": "rb1lm2c6sb",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 18,
     "disabledWhenInvalid": false,
     "borderRadius": "0.375rem",
+    "originalBottomRow": 22,
     "buttonVariant": "PRIMARY",
     "iconAlign": "left",
     "placement": "CENTER"

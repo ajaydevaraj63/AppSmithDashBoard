@@ -11,7 +11,7 @@
         {"key": "fontFamily"},
         {"key": "borderRadius"}
     ],
-    "text": "Polls",
+    "text": "                   Polls",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "onCanvasUI": {
