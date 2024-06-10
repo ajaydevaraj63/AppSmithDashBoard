@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 5,
-    "widgetName": "Text5",
+    "widgetName": "Text8",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "searchTags": [
@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 5,
-    "bottomRow": 9,
+    "topRow": 0,
+    "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 41,
@@ -18,23 +18,22 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 9,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.store.polldata.question}}",
-    "key": "l8qgdb33ah",
+    "text": "Add Poll",
+    "key": "o6w0rmj82t",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 59,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-    "textAlign": "LEFT",
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "r4mggk86a4",
+    "widgetId": "6n9e2d4ttn",
     "onCanvasUI": {
         "focusBGCSSVar": "--on-canvas-ui-widget-focus",
         "disableParentSelection": false,
@@ -47,7 +46,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "qitdme5zdc",
+    "parentId": "jo7vyow2hm",
     "tags": [
         "Suggested",
         "Content"
@@ -56,11 +55,9 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 5,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 11,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

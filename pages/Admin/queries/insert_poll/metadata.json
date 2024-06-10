@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "getpollsCopy",
+    "name": "insert_poll",
     "datasource": {
       "name": "Untitled datasource 4",
       "pluginId": "mongo-plugin",
@@ -29,13 +29,13 @@
           }
         },
         "body": {
-          "data": "{\n  \"find\": \"polls\",\n  \"filter\": {\n    \"poll\": \"Favorite Programming Languages Poll\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
+          "data": "{\n  \"insert\": \"polls\",\n  \"documents\": [\n    {\n      \"_id\": ObjectId(\"a_valid_object_id_hex\"),\n      \"answers\": [1, 2, 3],\n      \"poll\": [1, 2, 3],\n      \"question\": \"new value\",\n      \"users\": [1, 2, 3],\n    }\n  ]\n}\n"
         },
         "collection": {
           "data": "polls"
         },
         "command": {
-          "data": "FIND"
+          "data": "INSERT"
         },
         "count": {
           "query": {
@@ -63,13 +63,13 @@
             "data": ""
           },
           "query": {
-            "data": " {\"users\": {\n    \"$nin\": [{{appsmith.store.token}}]\n  }}"
+            "data": ""
           },
           "sort": {
             "data": ""
           },
           "limit": {
-            "data": "1000"
+            "data": ""
           },
           "projection": {
             "data": ""
@@ -77,12 +77,12 @@
         },
         "insert": {
           "documents": {
-            "data": ""
+            "data": "[{    \n      \"question\": {{Poll_Form.data.question}},\n    \n      \"answers\": {{JSON.parse(Poll_Form.data.poll)}}\n   \n}]"
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"polls\",\n  \"filter\":  \"users\": {\n    \"$not\":  {{appsmith.store.token}}\n    \n  },\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"insert\": \"polls\",\n  \"documents\": []\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -105,22 +105,23 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.find.query.data"
+        "key": "formData.insert.documents.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.token"
+      "JSON.parse(Poll_Form.data.poll)",
+      "Poll_Form.data.question"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-06T10:18:57Z"
+    "createdAt": "2024-06-10T03:33:43Z"
   },
-  "id": "Admin_getpollsCopy",
+  "id": "Admin_insert_poll",
   "deleted": false,
-  "gitSyncId": "664c7f0a494abc5e5511a32d_61c7c680-a889-4486-88e3-1d73dff08193"
+  "gitSyncId": "664c7f0a494abc5e5511a32d_991c8847-e84d-4a51-8089-e69414d56105"
 }

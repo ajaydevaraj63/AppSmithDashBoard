@@ -38,7 +38,7 @@
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "FIXED",
-    "widgetId": "cwjyf9gw60",
+    "widgetId": "cb2320fxoh",
     "onCanvasUI": {
         "focusBGCSSVar": "--on-canvas-ui-widget-focus",
         "disableParentSelection": false,
@@ -51,7 +51,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "kykjdovxj1",
+    "parentId": "jnahthl8ui",
     "tags": [
         "Suggested",
         "Content"

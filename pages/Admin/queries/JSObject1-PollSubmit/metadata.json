@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "List2onItemClick",
-    "fullyQualifiedName": "JSObject1.List2onItemClick",
+    "name": "PollSubmit",
+    "fullyQualifiedName": "JSObject1.PollSubmit",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,18 +13,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "graph",
-    "collectionId": "graph_JSObject1",
+    "pageId": "Admin",
+    "collectionId": "Admin_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "value"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -39,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-06T10:17:31Z"
+    "createdAt": "2024-06-10T03:47:07Z"
   },
-  "id": "graph_JSObject1.List2onItemClick",
+  "id": "Admin_JSObject1.PollSubmit",
   "deleted": false,
-  "gitSyncId": "664c7f0a494abc5e5511a32d_14460999-1073-406f-9c14-81e7322f5a22"
+  "gitSyncId": "664c7f0a494abc5e5511a32d_13c48d41-3fc2-4392-bb4e-c3aac636fa58"
 }

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "List2onItemClick",
-    "fullyQualifiedName": "JSObject1.List2onItemClick",
+    "name": "PollSubmit",
+    "fullyQualifiedName": "JSObject1.PollSubmit",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,15 +16,11 @@
     "pageId": "graph",
     "collectionId": "graph_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "value"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -39,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-06T10:17:31Z"
+    "createdAt": "2024-06-10T06:20:40Z"
   },
-  "id": "graph_JSObject1.List2onItemClick",
+  "id": "graph_JSObject1.PollSubmit",
   "deleted": false,
-  "gitSyncId": "664c7f0a494abc5e5511a32d_14460999-1073-406f-9c14-81e7322f5a22"
+  "gitSyncId": "664c7f0a494abc5e5511a32d_3205c238-e1c4-489c-baa0-d923b2eda9b3"
 }
