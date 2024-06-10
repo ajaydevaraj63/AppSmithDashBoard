@@ -19,7 +19,7 @@
     "animateLoading": true,
     "parentColumnSpace": 4.021484375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [],
     "text": "Admin",
     "isDisabled": false,

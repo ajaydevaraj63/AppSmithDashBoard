@@ -21,8 +21,9 @@
     "minHeight": 410,
     "animateLoading": true,
     "parentColumnSpace": 14.40234375,
+    "dynamicTriggerPathList": [],
     "leftColumn": 19,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [],
     "children": [{
         "needsErrorInfo": false,
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -36,7 +37,7 @@
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 240,
+        "minHeight": 410,
         "mobileRightColumn": 345.65625,
         "parentColumnSpace": 1,
         "leftColumn": 0,
@@ -95,9 +96,9 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 1,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,
-    "width": 456,
+    "width": 854,
     "minDynamicHeight": 24
 }

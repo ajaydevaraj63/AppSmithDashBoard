@@ -22,7 +22,7 @@
     "animateLoading": true,
     "parentColumnSpace": 2.889892578125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "boxShadow"},
         {"key": "backgroundColor"}

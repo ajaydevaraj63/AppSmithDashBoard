@@ -22,7 +22,7 @@
     "animateLoading": true,
     "parentColumnSpace": 2.889892578125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "boxShadow"}],
     "children": [{
         "needsErrorInfo": false,
@@ -77,7 +77,7 @@
     "key": "yfja6nwjud",
     "backgroundColor": "#ffffff",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "fhznnb2ph3",
@@ -102,6 +102,6 @@
     "borderRadius": "0.375rem",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 87,
+    "originalBottomRow": 98,
     "minDynamicHeight": 10
 }
