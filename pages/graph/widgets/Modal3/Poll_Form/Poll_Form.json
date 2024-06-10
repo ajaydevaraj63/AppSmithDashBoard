@@ -74,7 +74,7 @@
     "key": "4a14b9rzg6",
     "backgroundColor": "#5e6c9e",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.3e92e6e159c53c6046da08eae3732a97.svg",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "sdjjq6mgi9",
@@ -97,6 +97,6 @@
     "borderRadius": "0.375rem",
     "mobileLeftColumn": 15,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 39,
+    "originalBottomRow": 38,
     "minDynamicHeight": 10
 }

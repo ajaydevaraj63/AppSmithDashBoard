@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 21,
+    "leftColumn": 13,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -55,7 +55,7 @@
     "key": "gk6fw818dr",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "pqarv51fa2",
     "minWidth": 450,

@@ -30,7 +30,7 @@
     "widgetId": "n9k1fkp6ue",
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#e0dede",
+    "textColor": "#71717a",
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",
@@ -39,6 +39,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 9,
-    "fontSize": "1rem",
+    "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

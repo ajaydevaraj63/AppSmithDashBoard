@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "widgetName": "HeadingCopy",
-    "dynamicPropertyPathList": [{"key": "fontSize"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
     "topRow": 1,
@@ -33,6 +33,6 @@
     "isLoading": false,
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
-    "fontSize": "1.7rem",
+    "fontSize": "",
     "minDynamicHeight": 4
 }
