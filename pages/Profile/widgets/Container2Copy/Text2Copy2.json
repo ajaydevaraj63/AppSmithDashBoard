@@ -4,13 +4,13 @@
     "widgetName": "Text2Copy2",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 48,
+    "topRow": 47,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 52,
+    "bottomRow": 51,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -58,11 +58,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 28,
     "responsiveBehavior": "fill",
-    "originalTopRow": 98,
+    "originalTopRow": 48,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 28,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 111,
+    "originalBottomRow": 52,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

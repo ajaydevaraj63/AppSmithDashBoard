@@ -83,18 +83,6 @@ export default {
 
 	},
 
-	completedCalc: async() => {	
-		await select_work_ordersPage.run()
-		await select_work_ordersAgentPage.run()
-		let count = 0
-
-		// if(selectAgent.selectedOptionValue.length == 0)
-		// count = (select_work_ordersPage.data.filter((item) => item.completed == "Yes")).length;
-		// else 
-		// count = (select_work_ordersAgentPage.data.filter((item) => item.completed == "Yes")).length;
-
-		storeValue('completedCount',count);
-	},
 
 
 
