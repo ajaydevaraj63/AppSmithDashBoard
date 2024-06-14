@@ -96,18 +96,6 @@ export default {
 		storeValue('completedCount',count);
 	},
 
-	equipChart: async() => {
-		await agent_stats.run()
-		await agent_statsAgent.run()
-		let chartData
-		if(selectAgent.selectedOptionValue.length == 0)
-			chartData = agent_stats.data.map((gen) => {return {x: gen.equipment, y: gen.count }})
 
-		else 
-			chartData = agent_statsAgent.data.map((gen) => {return {x: gen.equipment, y: gen.count }})
-
-		storeValue('equipmentStats',chartData);
-		console.log(appsmith.store.equipmentStats)
-	}
 
 }

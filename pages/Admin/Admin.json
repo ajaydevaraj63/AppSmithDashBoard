@@ -63,6 +63,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Admin_Query1",
+              "name": "Query1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Admin_agent_stats",
               "name": "agent_stats",
               "confirmBeforeExecute": false,
@@ -87,6 +95,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_getpolls",
+              "name": "getpolls",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.token"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -123,26 +141,6 @@
           ],
           [
             {
-              "id": "Admin_Query1",
-              "name": "Query1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_getpolls",
-              "name": "getpolls",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.token"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Admin_UpdateTable",
               "name": "UpdateTable",
               "confirmBeforeExecute": false,
@@ -158,17 +156,6 @@
             }
           ],
           [
-            {
-              "id": "Admin_JSObject1.equipChart",
-              "name": "JSObject1.equipChart",
-              "collectionId": "Admin_JSObject1",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await agent_stats.run();\n  await agent_statsAgent.run();\n  let chartData;\n  if (selectAgent.selectedOptionValue.length == 0) chartData = agent_stats.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  }); else chartData = agent_statsAgent.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  });\n  storeValue('equipmentStats', chartData);\n  console.log(appsmith.store.equipmentStats);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Admin_JSObject1.getData",
               "name": "JSObject1.getData",
