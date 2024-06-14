@@ -19,9 +19,9 @@ export default {
 
 	},
 	PollSubmit:async()=>{
-		console.log(Poll_Form.data.poll)
+		console.log(Poll_Form?.data?.poll)
 		try{
-			if(JSON.parse(Poll_Form.data.poll)){
+			if(JSON.parse(Poll_Form?.data?.poll)){
 				
        await insert_poll.run()
 				closeModal(("Modal3"))
