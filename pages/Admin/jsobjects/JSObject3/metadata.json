@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "664c7f0a494abc5e5511a32d_b089dc3b-4eab-421d-a13d-394470d79610",
+  "id": "Admin_JSObject3",
   "unpublishedCollection": {
     "name": "JSObject3",
     "pageId": "Admin",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Admin_JSObject3",
-  "deleted": false,
-  "gitSyncId": "664c7f0a494abc5e5511a32d_b089dc3b-4eab-421d-a13d-394470d79610"
+    "variables": []
+  }
 }

@@ -1,76 +1,90 @@
 {
-    "needsErrorInfo": false,
-    "isCompact": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 5,
-    "widgetName": "MenuButton1",
-    "dynamicPropertyPathList": [{"key": "menuItems.menuItemkygyb3y3lu.onClick"}],
-    "displayName": "Menu button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.33a4057faa7212849fa6ff1f15f2da0f.svg",
-    "topRow": 1,
-    "bottomRow": 5,
-    "parentRowSpace": 10,
-    "type": "MENU_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "parentColumnSpace": 15.765625,
-    "dynamicTriggerPathList": [
-        {"key": "menuItems.menuItemkygyb3y3lu.onClick"},
-        {"key": "menuItems.menuItem1.onClick"}
-    ],
-    "leftColumn": 60,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "isDisabled": false,
-    "key": "v8gnl78wb9",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
-    "iconName": "align-justify",
-    "menuVariant": "PRIMARY",
-    "widgetId": "50c3v62dxq",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItemkygyb3y3lu.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItemkygyb3y3lu.onClick"
     },
-    "menuItems": {
-        "menuItem1": {
-            "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
-            "iconName": "person",
-            "widgetId": "",
-            "iconColor": "#231f20",
-            "index": 0,
-            "label": "profile",
-            "id": "menuItem1",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItemkygyb3y3lu": {
-            "onClick": "{{\nstoreValue(\"token\",\"\")\nnavigateTo('Login Page')\n}}",
-            "iconName": "drawer-left",
-            "widgetId": "p5u7c8zxm3",
-            "index": 1,
-            "id": "menuItemkygyb3y3lu",
-            "label": "log out",
-            "isDisabled": false,
-            "isVisible": true
-        }
+    {
+      "key": "menuItems.menuItem1.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "align-justify",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.33a4057faa7212849fa6ff1f15f2da0f.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "v8gnl78wb9",
+  "label": "",
+  "leftColumn": 60,
+  "menuColor": "#ffffff",
+  "menuItems": {
+    "menuItem1": {
+      "iconColor": "#231f20",
+      "iconName": "person",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "profile",
+      "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
     },
-    "isVisible": true,
-    "label": "",
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 1,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 49,
-    "menuItemsSource": "STATIC",
-    "menuColor": "#ffffff",
-    "iconAlign": "left",
-    "placement": "CENTER"
+    "menuItemkygyb3y3lu": {
+      "iconName": "drawer-left",
+      "id": "menuItemkygyb3y3lu",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "log out",
+      "onClick": "{{\nstoreValue(\"token\",\"\")\nnavigateTo('Login Page')\n}}",
+      "widgetId": "p5u7c8zxm3"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 49,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 15.765625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 1,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "50c3v62dxq",
+  "widgetName": "MenuButton1"
 }

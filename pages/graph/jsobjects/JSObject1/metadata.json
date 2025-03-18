@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "664c7f0a494abc5e5511a32d_3ffdb454-dc7b-4f54-8a95-a107f97b48fb",
+  "id": "graph_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "graph",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "graph_JSObject1",
-  "deleted": false,
-  "gitSyncId": "664c7f0a494abc5e5511a32d_3ffdb454-dc7b-4f54-8a95-a107f97b48fb"
+    ]
+  }
 }

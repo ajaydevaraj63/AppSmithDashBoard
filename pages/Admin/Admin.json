@@ -1,117 +1,34 @@
 {
+  "gitSyncId": "664c7f0a494abc5e5511a32d_4ed53bc1-6a8b-4e84-853a-821a7db6fb1b",
   "unpublishedPage": {
-    "name": "Admin",
-    "slug": "admin",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1160,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1230,
-          "containerStyle": "none",
-          "snapRows": 66,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
-          "minHeight": 2210,
-          "useAutoLayout": false,
-          "parentColumnSpace": 1,
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "positioning": "fixed"
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Admin_JSObject1.tokenallow",
-              "name": "JSObject1.tokenallow",
-              "collectionId": "Admin_JSObject1",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  console.log(\"storeValue\");\n  console.log(appsmith.store.token);\n  if (appsmith.store.token == \"\") {\n    navigateTo('Login Page', {});\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_JSObject1.totalHoursCalc",
-              "name": "JSObject1.totalHoursCalc",
-              "collectionId": "Admin_JSObject1",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  let sum = 0;\n  storeValue('hoursSum', sum);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_Query1",
-              "name": "Query1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_getpolls",
-              "name": "getpolls",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.token"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin_UpdateTable",
-              "name": "UpdateTable",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Phone_no.text",
-                "CompanyName.text",
-                "Email.text",
-                "tbl_userInfo.selectedRow.email",
-                "tbl_userInfo.selectedRow.username"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin_JSObject1.getData",
-              "name": "JSObject1.getData",
-              "collectionId": "Admin_JSObject1",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  storeValue('tabledata', Query1.data);\n  console.log(appsmith.store.tabledata);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Admin",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "minHeight": 2210,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "fixed",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "snapRows": 66,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": false,
+          "version": 92,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "664c7f0a494abc5e5511a32d_4ed53bc1-6a8b-4e84-853a-821a7db6fb1b"
+    "name": "Admin",
+    "slug": "admin"
+  }
 }

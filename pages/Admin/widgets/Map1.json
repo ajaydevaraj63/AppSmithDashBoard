@@ -1,63 +1,75 @@
 {
-    "zoomLevel": 80,
-    "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 85,
-    "widgetName": "Map1",
-    "defaultMarkers": "[{\n\"lat\":{{appsmith.geolocation.currentPosition.coords.latitude || \"\"}}, \n\"long\":{{appsmith.geolocation.currentPosition.coords.longitude || \"\"}}\n}]",
-    "displayName": "Map",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.90428b358e5d271b311873239e736e78.svg",
-    "topRow": 5,
-    "bottomRow": 41,
-    "parentRowSpace": 10,
-    "type": "MAP_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 17,
-    "animateLoading": true,
-    "allowZoom": true,
-    "parentColumnSpace": 15.00390625,
-    "dynamicTriggerPathList": [{"key": "onCreateMarker"}],
-    "leftColumn": 13,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "defaultMarkers"}
-    ],
-    "onCreateMarker": "{{appsmith.geolocation.watchPosition();\nnavigateTo(\"\", {}, 'SAME_WINDOW')}}",
-    "enablePickLocation": true,
-    "mapCenter": {
-        "title": "293G+M65, Infopark Phase 2, Infopark Sez, Phase II, Kochi, Kakkanad, Kerala 682303, India",
-        "lat": 10.0041324,
-        "long": 76.3756227
+  "allowClustering": true,
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 41,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "[{\n\"lat\":{{appsmith.geolocation.currentPosition.coords.latitude || \"\"}}, \n\"long\":{{appsmith.geolocation.currentPosition.coords.longitude || \"\"}}\n}]",
+  "displayName": "Map",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "isClickedMarkerCentered": true,
-    "isDisabled": false,
-    "enableSearch": true,
-    "flexVerticalAlignment": "start",
-    "key": "tbhtbo6vy2",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a67ea5d45fc8fa84754d11a409af1f33.svg",
-    "allowClustering": true,
-    "widgetId": "i415y07kfj",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+    {
+      "key": "boxShadow"
     },
-    "enableCreateMarker": true,
-    "enableMapTypeControl": true,
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Content"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 45,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0
+    {
+      "key": "defaultMarkers"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCreateMarker"
+    }
+  ],
+  "enableCreateMarker": true,
+  "enableMapTypeControl": true,
+  "enablePickLocation": true,
+  "enableSearch": true,
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.90428b358e5d271b311873239e736e78.svg",
+  "isClickedMarkerCentered": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tbhtbo6vy2",
+  "leftColumn": 13,
+  "mapCenter": {
+    "lat": 10.0041324,
+    "long": 76.3756227,
+    "title": "293G+M65, Infopark Phase 2, Infopark Sez, Phase II, Kochi, Kakkanad, Kerala 682303, India"
+  },
+  "minWidth": 450,
+  "mobileBottomRow": 85,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 45,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onCreateMarker": "{{appsmith.geolocation.watchPosition();\nnavigateTo(\"\", {}, 'SAME_WINDOW')}}",
+  "parentColumnSpace": 15.00390625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "tags": [
+    "Content"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a67ea5d45fc8fa84754d11a409af1f33.svg",
+  "topRow": 5,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "i415y07kfj",
+  "widgetName": "Map1",
+  "zoomLevel": 80
 }
